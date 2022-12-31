@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.section-one {
+    background: #1f2937;
+    padding: 3rem 10rem 7rem 10rem;
+    height: 75vh;
+}
+.div-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6em;
+}
+.logo p {
+    color: #f9faf9;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 3rem;
+    color: #f9faf8;
+}
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
