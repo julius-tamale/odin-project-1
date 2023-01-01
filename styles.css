@@ -112,3 +112,33 @@ button {
     text-align: right;
     font-weight: 600;
 }
+.section-four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.sectionf4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 80%;
+    border-radius: 0.625rem;
+    padding: 5rem 7rem;
+    color: #f9faf8;
+    font-size: 1.313rem;
+}
+.sectionf4 button {
+    margin: 0;
+    border: 2px solid #f9faf8;
+    padding: 0.75rem 3rem;
+}
+footer {
+    background: #1f2937;
+    padding: 2rem 0;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 1.525rem;
+}
